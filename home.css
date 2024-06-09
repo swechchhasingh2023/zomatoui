@@ -1,0 +1,165 @@
+body {
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header CSS*/
+
+header {
+  height: 60px;
+  /* border: 5px solid hotpink; */
+  background-color: #3b2632;
+}
+#brand {
+  float: left;
+  font-size: 30px;
+  color: white;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+#social {
+  float: right;
+  margin-top: 5px;
+  margin-right: 1%;
+}
+.socialLogo {
+  height: 50px;
+}
+/* Search CSS*/
+
+#search {
+  height: 450px;
+  /* border: 10px groove gray; */
+  background-image: url("images/food-wallpaper.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% 450px;
+}
+#logo {
+  height: 150px;
+  width: 150px;
+  background: white;
+  border-radius: 50%;
+  margin-left: 46%;
+  margin-top: 2%;
+  position: absolute;
+  font-size: 90px;
+}
+
+#logo > span {
+  margin-left: 21%;
+  margin-top: 13%;
+  position: absolute;
+}
+
+#heading {
+  color: white;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  margin-left: 30%;
+  margin-top: 15%;
+  position: absolute;
+}
+
+.dropdown {
+  height: 60px;
+  width: 50%;
+  /* border: 2px solid white; */
+  margin-left: 28%;
+  margin-top: 22%;
+  position: absolute;
+}
+
+select {
+  height: 60px;
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+}
+#restSelect {
+  width: 59%;
+}
+
+/* Quick CSS*/
+
+#quickSearch {
+  /* height: 600px;
+  border: 10px double green; */
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.quickHeading {
+  font-size: 30px;
+  color: #3b2632;
+  font-weight: bold;
+  display: block;
+  line-height: 2;
+  margin-left: 2%;
+}
+.quickSubHeading {
+  color: gray;
+  font-size: 20px;
+  margin-left: 2%;
+}
+.mainBox {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tileContainer {
+  /* border: 2px solid gray; */
+  box-shadow: 10px 20px 8px gray;
+  height: 180px;
+  width: 30%;
+  margin-left: 2%;
+  margin-top: 3%;
+  display: flex;
+}
+.tileComponent1 {
+  width: 52%;
+}
+.tileComponent1 img {
+  height: 100%;
+  width: 100%;
+}
+.tileComponent2 {
+  width: 40%;
+  margin-left: 5%;
+}
+.compHeading {
+  margin-top: 35%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3b2632 !important;
+}
+.compHeading > a {
+  color: #3b2632;
+}
+/* Footer CSS*/
+
+footer {
+  /* height: 60px; */
+  /* border: 5px dotted orange; */
+  text-align: center;
+  background-color: #3b2632;
+  color: white;
+}
+.footText {
+  text-align: center;
+}
+.footDiv {
+  width: 32%;
+  display: inline-block;
+  border-right: 2px solid white;
+}
+.noBorder {
+  border: none;
+}
+ul {
+  list-style-type: none;
+}
